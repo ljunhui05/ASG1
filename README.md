@@ -5,6 +5,4 @@
 # Features I plan to include:
 # Photos from previous CCA events
 # The upcoming events that the CCA is doing
-# Testimonies from alumni
-# A history of what the CCA has done
 # Links to the CCA's social medias
