@@ -1,95 +1,94 @@
-.logo{
-    align-items:flex-start ;
-    flex-direction:column ;
-    margin-left: 50px;
-    margin-top: 20px;
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
-.logo-text{
-    font-size: 20px;
-    text-align: left; 
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+.logo-text {
+  font-size: 20px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
-.buttons{
-    margin-bottom: 20px;
-    margin-right: 10px;
-    align-items: center;
+.buttons {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  align-items: center;
 }
 
-button{
-    font-size: 20px;
-    font-weight: 700;
-    border: none;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: rgb(47, 44, 44);
+button {
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: rgb(47, 44, 44);
 }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    background-color: rgb(47, 44, 44);
-    top: 0;
-    left: 0;
-    right: 0;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgb(47, 44, 44);
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-
-.h1{
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin-top: 300px;
+.h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 300px;
 }
 
-.h2{
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin-top: 150px;
+.h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 150px;
 }
 
-.p{
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin-top: 100px;
+.p {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 100px;
 }
 
-.buttons{
-    display: flex;
-    justify-content:center;
+.buttons {
+  display: flex;
+  justify-content: center;
 }
 
-body{
-    background-color: rgb(47, 44, 44);
+body {
+  background-color: rgb(47, 44, 44);
 }
-
 
 ::-webkit-scrollbar {
-    width: 10px;
-  }
+  width: 10px;
+}
 
 ::-webkit-scrollbar-track {
-    background: rgb(47, 44, 44);; 
-
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-  }
+  background: rgb(47, 44, 44);
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(105, 104, 104); 
-  }
-
+  background: rgb(105, 104, 104);
+}
