@@ -37,7 +37,7 @@ header {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  z-index: 100;
+  z-index: 1;
   background-color: rgb(47, 44, 44);
   top: 0;
   left: 0;
@@ -46,8 +46,55 @@ header {
 
 .headerbuttons {
   display: flex;
+  display: block;
   justify-content: center;
 }
+
+/* Dropdown Button */ 
+.dropdown-button { 
+  background-color: rgb(47, 44, 44); 
+  color: white; 
+  padding: 16px; 
+  font-size: 16px; 
+  margin-right: 20px;
+  border: none; 
+} 
+.dropdown { 
+  position: relative; 
+  display: none; 
+} 
+/* Dropdown Content (Hidden by Default) */ 
+.dropdown-list { 
+  display: none; 
+  position: absolute; 
+  background-color: #f1f1f1; 
+  min-width: 100px; 
+  z-index: 100;
+} 
+/* Links inside the dropdown */ 
+.dropdown-list a { 
+  color: black; 
+  padding: 12px 12px; 
+  text-decoration: none; 
+  display: block; 
+  font-family: "Roboto", sans-serif; 
+} 
+/* Change color of dropdown links on hover */ 
+.dropdown-list a:hover { 
+  background-color: #ddd; 
+  border-radius: 5px;
+} 
+/* Show the dropdown list on hover */ 
+.dropdown:hover .dropdown-list { 
+  display: block; 
+  border-radius: 5px;
+} 
+/* Change the background color of the dropdown button when the dropdown list is shown */ 
+.dropdown:hover .dropdown-button { 
+  background-color: rgb(65, 62, 62); 
+  border-radius: 5px;
+} 
+
 
 .h1 {
   font-size: 50px;
@@ -203,4 +250,23 @@ form  {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(105, 104, 104);
+}
+
+@media(max-width:600px){
+  .headerbuttons{
+    display: none;
+  }
+
+  .dropdown{
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  form{
+    display:flex;
+    align-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
 }
