@@ -15,16 +15,13 @@ html {
   color: white;
 }
 
-.buttons {
-  margin-bottom: 20px;
-  margin-right: 10px;
-  align-items: center;
-}
 
-button {
+.headerbutton {
   font-size: 20px;
   font-weight: 700;
   border: none;
+  margin-right: 20px;
+  text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: white;
   background-color: rgb(47, 44, 44);
@@ -45,9 +42,17 @@ header {
 }
 
 .headerbuttons {
-  display: flex;
   display: block;
   justify-content: center;
+  color: white; 
+
+}
+
+.headerbutton:hover{
+  background-color: rgb(65, 62, 62); 
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  font-size: 30px;
 }
 
 /* Dropdown Button */ 
@@ -134,10 +139,14 @@ body {
   margin-top: 100px;
 }
 
+button {
+  background-color: rgb(47, 44, 44);
+  border: none;
+}
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.carousel-container {
   display: flex;
   max-width: 750px;
   position: relative;
@@ -146,7 +155,7 @@ body {
 }
 
 /* Hide the images by default*/
-.mySlides {
+.carousel {
   display: none;
 }
 
@@ -191,7 +200,7 @@ body {
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
+.number {
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
   font-size: 12px;
